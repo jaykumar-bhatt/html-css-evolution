@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eceaea;
+    padding: 5px;
+}
+.left{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #1f40a0;
+    width: 17vw;
+    height: 105vh;
+    border-radius: 20px;
+}
+.left ul{
+    margin: 0;
+    padding:0;
+}
+.left ul li{
+    list-style: none;
+}
+.logo{
+    margin: 40px 0;
+    font-size: 30px;
+    color: white;
+}
+.link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+}
+.link:hover{
+    color: #f1517a;
+}
+.fas{
+    margin-right: 8px;
+}
+
+.logout{
+    margin:40px 0 ;
+}
+.right{
+    float: right;
+    height: 95vh;
+    width: 80vw;
+    border-radius: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+.right .searchcontainer{
+    display: flex;
+    background-color: white;
+    width: fit-content;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.right .searchcontainer .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    margin: 0 7px;
+}
+
+.right .searchcontainer .searchinput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    margin: 0 7px;
+}
+
+.right .searchcontainer .searchinput input{
+    font-size: 15px;
+    width: 30vw;
+    outline: none;
+    border: none;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu ul li{
+    
+    list-style: none;
+    margin: 0 13px;
+}
+.menu ul li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.menu ul li a img{
+    height: 40px;
+    border-radius: 10px;
+}
+.main{
+    padding: 5px 25px;
+}
+
+.add{
+    display: flex;
+    border-radius: 20px;
+    background-color: white;
+}
+.photo{
+    width: 35%;
+    border-radius: 20px 100px 60px 20px;
+    background-color:#1f40a0 ;
+}
+.live{
+    padding: 20px;
+    width: 65%;
+    padding-left: 20px;
+}
+.add-head{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.normal-font{
+    font-size: 15px;
+}
+.add .btn{
+    background-color: #f1517a;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.monthly{
+    margin-top: 20px;
+}
+.topright{
+    position: relative;
+    left: 125px;
+    top: 2px;
+    font-size: 10px;
+}
+.data{
+    display: flex;
+    margin-top: 10px;
+}
+.graph{
+    width: 50%;
+}
+.amount{
+    background-color: white;
+    border-radius: 20px;
+}
+.space{
+    margin:0 10px;
+}
+.top-side{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cash{
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.color-show ul{
+    display: flex;
+}
+.color-show ul li{
+    list-style: none;
+    padding-right: 5px;
+}
+.recived{
+    color:#1f40a0;
+}
+.spent{
+    color:#f1517a;
+}
+.bgraph{
+    max-height:200px;
+    max-width:100%;
+}
+
+.card{
+    background-color: white;
+    padding:15px;
+    border-radius: 20px;
+}
+.card-name{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pluse{
+    color: white;
+    background-color:#f1517a ;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+.items{
+    background-color: #eceaea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.price-d{
+    color:#f1517a;
+}
+.price-p{
+    color:#0efd0e;
+}
